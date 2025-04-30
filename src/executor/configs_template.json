@@ -1,0 +1,124 @@
+{
+    "logs": {
+        "print": {
+            "enabled": true,
+            "colored": true,
+            "log_level": 0,
+            "time": {
+                "enabled": true,
+                "time_format": "%Y-%m-%d %H:%M:%S",
+                "time_styles": [
+                    90
+                ],
+                "time_quote_format": "[{}]",
+                "time_quote_styles": []
+            },
+            "level": {
+                "enabled": true,
+                "levels": {
+                    "0": {
+                        "text": "DEBUG",
+                        "styles": [
+                            90
+                        ]
+                    },
+                    "1": {
+                        "text": "INFO",
+                        "styles": []
+                    },
+                    "2": {
+                        "text": "NOTICE",
+                        "styles": [
+                            1
+                        ]
+                    },
+                    "3": {
+                        "text": "WARN",
+                        "styles": [
+                            33
+                        ]
+                    },
+                    "4": {
+                        "text": "ERROR",
+                        "styles": [
+                            31
+                        ]
+                    },
+                    "5": {
+                        "text": "CRIT",
+                        "styles": [
+                            31,
+                            1,
+                            5
+                        ]
+                    }
+                }
+            }
+        },
+        "file": {
+            "enabled": false,
+            "colored": false,
+            "log_level": 0,
+            "log_root_path": "./logs",
+            "log_name": "log.",
+            "log_suffix": "txt",
+            "log_append_time": true,
+            "log_time_format": "%Y-%m-%d",
+            "flush_every_n_logs": 0,
+            "time": {
+                "enabled": true,
+                "time_format": "%Y-%m-%d %H:%M:%S",
+                "time_styles": [
+                    90
+                ],
+                "time_quote_format": "[{}]",
+                "time_quote_styles": []
+            },
+            "level": {
+                "enabled": true,
+                "levels": {
+                    "0": {
+                        "text": "DEBUG",
+                        "styles": [
+                            90
+                        ]
+                    },
+                    "1": {
+                        "text": "INFO",
+                        "styles": []
+                    },
+                    "2": {
+                        "text": "NOTICE",
+                        "styles": [
+                            1
+                        ]
+                    },
+                    "3": {
+                        "text": "WARN",
+                        "styles": [
+                            33
+                        ]
+                    },
+                    "4": {
+                        "text": "ERROR",
+                        "styles": [
+                            31
+                        ]
+                    },
+                    "5": {
+                        "text": "CRIT",
+                        "styles": [
+                            31,
+                            1,
+                            5
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "redis": {
+        "redis_url": "redis://localhost:6379",
+        "password": "redis-password"
+    }
+}

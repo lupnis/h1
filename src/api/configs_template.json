@@ -1,0 +1,6 @@
+{
+    "redis_utils": {
+        "redis_url": "redis://localhost:6379",
+        "password": "your_password"
+    }
+}
